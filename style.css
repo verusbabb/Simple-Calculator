@@ -1,0 +1,55 @@
+.title {
+  width: max-content;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container {
+  background: lightgrey;
+  width: 600px;
+  margin: auto;
+}
+
+.display {
+  width: 100%;
+  background-color: darkgrey;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-size: 48px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  height: 500px;
+}
+
+button {
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.btn-number {
+  background-color: grey;
+}
+
+.btn-operator {
+  background-color: orange;
+}
+
+.btn-equals {
+  background-color: green;
+}
+
+.btn-clear {
+  background-color: crimson;
+}
+
+button: focus {
+  outline: none;
+}
